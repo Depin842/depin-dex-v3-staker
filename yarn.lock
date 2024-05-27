@@ -990,6 +990,11 @@
   resolved "https://registry.yarnpkg.com/@openzeppelin/contracts/-/contracts-3.4.1-solc-0.7-2.tgz#371c67ebffe50f551c3146a9eec5fe6ffe862e92"
   integrity sha512-tAG9LWg8+M2CMu7hIsqHPaTyG4uDzjr6mhvH96LvOpLZZj6tgzTluBt+LsCf1/QaYrlis6pITvpIaIhE+iZB+Q==
 
+"@openzeppelin/contracts@3.4.2-solc-0.7":
+  version "3.4.2-solc-0.7"
+  resolved "https://registry.yarnpkg.com/@openzeppelin/contracts/-/contracts-3.4.2-solc-0.7.tgz#38f4dbab672631034076ccdf2f3201fab1726635"
+  integrity sha512-W6QmqgkADuFcTLzHL8vVoNBtkwjvQRpYIAom7KiUNoLKghyx3FgH0GBjt8NRvigV1ZmMOBllvE1By1C+bi8WpA==
+
 "@resolver-engine/core@^0.3.3":
   version "0.3.3"
   resolved "https://registry.yarnpkg.com/@resolver-engine/core/-/core-0.3.3.tgz#590f77d85d45bc7ecc4e06c654f41345db6ca967"
@@ -1449,27 +1454,6 @@
   version "4.0.1-alpha"
   resolved "https://registry.yarnpkg.com/@uniswap/lib/-/lib-4.0.1-alpha.tgz#2881008e55f075344675b3bca93f020b028fbd02"
   integrity sha512-f6UIliwBbRsgVLxIaBANF6w09tYqc6Y/qXdsrbEmXHyFA7ILiKrIwRFXe1yOg8M3cksgVsO9N7yuL2DdCGQKBA==
-
-"@uniswap/v2-core@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@uniswap/v2-core/-/v2-core-1.0.1.tgz#af8f508bf183204779938969e2e54043e147d425"
-  integrity sha512-MtybtkUPSyysqLY2U210NBDeCHX+ltHt3oADGdjqoThZaFRDKwM6k1Nb3F0A3hk5hwuQvytFWhrWHOEq6nVJ8Q==
-
-"@uniswap/v3-core@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@uniswap/v3-core/-/v3-core-1.0.0.tgz#6c24adacc4c25dceee0ba3ca142b35adbd7e359d"
-  integrity sha512-kSC4djMGKMHj7sLMYVnn61k9nu+lHjMIxgg9CDQT+s2QYLoA56GbSK9Oxr+qJXzzygbkrmuY6cwgP6cW2JXPFA==
-
-"@uniswap/v3-periphery@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@uniswap/v3-periphery/-/v3-periphery-1.0.1.tgz#3d111ba4d33a6ac07d729c72a4a43298f92056ec"
-  integrity sha512-1Q4DVWNWfRumbNrBJgebLOUULGng5g3uky5suu4Cc7GtA1+JmEnw3J2VOrJSv2zn1LOPjURhZgU5T7NiIl2yeA==
-  dependencies:
-    "@openzeppelin/contracts" "3.4.1-solc-0.7-2"
-    "@uniswap/lib" "^4.0.1-alpha"
-    "@uniswap/v2-core" "1.0.1"
-    "@uniswap/v3-core" "1.0.0"
-    base64-sol "1.0.1"
 
 "@yarnpkg/lockfile@^1.1.0":
   version "1.1.0"
@@ -3414,6 +3398,27 @@ depd@~1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/depd/-/depd-1.1.2.tgz#9bcd52e14c097763e749b274c4346ed2e560b5a9"
   integrity sha1-m81S4UwJd2PnSbJ0xDRu0uVgtak=
+
+depin-dex-v2-core@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/depin-dex-v2-core/-/depin-dex-v2-core-1.0.0.tgz#4c1a4ef2d22b8a2d50b87db1a909739f5b04e782"
+  integrity sha512-WxmKEGp7dglnPUkUwCQvKTZe2CWap/KEtrm/zQy6V3QAqOcfrjsLl4f9++YjnDKExJKPocl8cZsL4LfRlIJZwg==
+
+depin-dex-v3-core@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/depin-dex-v3-core/-/depin-dex-v3-core-1.0.0.tgz#0b2fec1a359269b9e38f3616d034e79d0b8d8b9d"
+  integrity sha512-E9TAF0/asvT1D9dupfT/bCj3E6eWQ8JtwbFUMDeZXMGoBxMfJ0dGmW0dZ3zag75fBE9HhBH2NmaATz+nzUrxmg==
+
+depin-dex-v3-periphery@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/depin-dex-v3-periphery/-/depin-dex-v3-periphery-1.0.0.tgz#df9d2287f4025b4fcee5056124221b31f2e212f1"
+  integrity sha512-1oZ0TQ5pcptd3Kk32YOExVJbz97FWKQucppJ3ZOnlzsaIFA569TouZlbqvdeFfY+XjcW/0LZ/v+h5K23asGAkA==
+  dependencies:
+    "@openzeppelin/contracts" "3.4.2-solc-0.7"
+    "@uniswap/lib" "^4.0.1-alpha"
+    base64-sol "1.0.1"
+    depin-dex-v2-core "^1.0.0"
+    depin-dex-v3-core "^1.0.0"
 
 des.js@^1.0.0:
   version "1.0.1"
